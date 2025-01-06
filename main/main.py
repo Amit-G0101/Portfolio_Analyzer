@@ -69,16 +69,16 @@ if __name__=="__main__":
         print("********** PROGRAM STARTED ************")
 
         #Testing input
-        property_file_path="D:\my project\portfolio Analyzer\main\stocks.properties"
-        stock_data_path="D:\my project\portfolio Analyzer\stock_data"
-        destination_path="D:\my project\portfolio Analyzer\portfolio\Investment.xlsx"
+        # property_file_path="D:\my project\portfolio Analyzer\main\stocks.properties"
+        # stock_data_path="D:\my project\portfolio Analyzer\stock_data"
+        # destination_path="D:\my project\portfolio Analyzer\portfolio\Investment.xlsx"
         
         
         
         #get stocks.property file path during run time
-        # property_file_path=sys.argv[1]
-        # stock_data_path=sys.argv[2]
-        # destination_path=sys.argv[3]
+        property_file_path=sys.argv[1]
+        stock_data_path=sys.argv[2]
+        destination_path=sys.argv[3]
 
         print(f"*******property_file_path: {property_file_path} ********")
         print(f"*******stock_data_path: {stock_data_path} ********")
