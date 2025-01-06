@@ -1,0 +1,1 @@
+python main\main.py "main\stocks.properties" "stock_data" "portfolio\Investment.xlsx"
